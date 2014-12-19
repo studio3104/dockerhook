@@ -1,0 +1,35 @@
+{
+  "name": "ore no sinatra skelton",
+  "version": "0.0.1",
+  "dependencies": {
+    "vue": "latest",
+    "underscore": "latest",
+    "jquery": "latest",
+    "bootstrap": "latest",
+    "bootswatch": "latest",
+    "Font-Awesome": "latest"
+  },
+   "exportsOverride": {
+     "jquery": {
+       "js": "dist/*"
+     },
+     "underscore": {
+       "js": [ "underscore-min.js", "underscore-min.map" ]
+     },
+     "vue": {
+       "js": "dist/vue.min.js"
+     },
+     "bootstrap": {
+       "js": "dist/js/bootstrap.min.js",
+       "css": [ "dist/css/*.min.css", "dist/css/*.map" ],
+       "fonts": "dist/fonts/*"
+     },
+     "bootswatch": {
+       "css": "journal/bootstrap.min.css"
+     },
+     "Font-Awesome": {
+       "css": "css/font-awesome.min.css",
+       "fonts": "fonts/*"
+     }
+   }
+}
