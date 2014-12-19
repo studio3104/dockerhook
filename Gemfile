@@ -5,6 +5,7 @@ gem 'compass'
 gem 'foreman'
 
 gem 'docker-api'
+gem 'toml'
 gem 'bundler', '~> 1.6'
 gem 'rack-mini-profiler'
 gem 'sinatra'
