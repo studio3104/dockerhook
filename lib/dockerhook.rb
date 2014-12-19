@@ -1,2 +1,2 @@
-module Skelton
+module DockerHook
 end
